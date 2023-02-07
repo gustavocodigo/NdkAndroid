@@ -15,7 +15,7 @@ build.sh
 
 
 ** setup .settings in vscode to include paths **
-``
+<br><br>
 {<br>
     "C_Cpp.default.includePath": [<br>
         "${env:NDK_ROOT}/sysroot/usr/include",<br>
@@ -32,4 +32,4 @@ build.sh
     "C_Cpp.default.customConfigurationVariables": {<br>
     },<br>
 }<br>
-``
+

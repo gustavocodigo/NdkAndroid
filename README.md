@@ -12,3 +12,24 @@ export NDK_ROOT=path/to/ndk
 **run build.sh in the current project directory to build.**
 <br>
 build.sh
+
+
+** setup .settings in vscode to include paths **
+``
+{
+    "C_Cpp.default.includePath": [
+        "${env:NDK_ROOT}/sysroot/usr/include",
+        "${env:NDK_ROOT}/sources/cxx-stl/llvm-libc++/include",
+        "${env:NDK_ROOT}/sources/cxx-stl/llvm-libc++abi/include"
+      ],
+      "C_Cpp.default.defines": [
+        "_DEBUG",
+        "DEBUG",
+        "__ANDROID__",
+        "__ANDROID_API__=29"
+    ],
+    "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+    "C_Cpp.default.customConfigurationVariables": {
+    },
+}
+``

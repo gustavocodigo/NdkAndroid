@@ -14,7 +14,7 @@ export NDK_ROOT=path/to/ndk
 build.sh
 
 
-** setup .settings in vscode to include paths **
+** setup settings.json in vscode to include paths **
 <br><br>
 {<br>
     "C_Cpp.default.includePath": [<br>

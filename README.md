@@ -9,6 +9,6 @@ unzip android-ndk-r20-linux-x86_64.zip
 export NDK_ROOT=path/to/ndk
 <br>
 <br><br>
-** build **
+**run build.sh in the current project directory to build.**
 <br>
 build.sh

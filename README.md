@@ -16,20 +16,20 @@ build.sh
 
 ** setup .settings in vscode to include paths **
 ``
-{
-    "C_Cpp.default.includePath": [
-        "${env:NDK_ROOT}/sysroot/usr/include",
-        "${env:NDK_ROOT}/sources/cxx-stl/llvm-libc++/include",
-        "${env:NDK_ROOT}/sources/cxx-stl/llvm-libc++abi/include"
-      ],
-      "C_Cpp.default.defines": [
-        "_DEBUG",
-        "DEBUG",
-        "__ANDROID__",
-        "__ANDROID_API__=29"
-    ],
-    "C_Cpp.inlayHints.referenceOperator.showSpace": true,
-    "C_Cpp.default.customConfigurationVariables": {
-    },
-}
+{<br>
+    "C_Cpp.default.includePath": [<br>
+        "${env:NDK_ROOT}/sysroot/usr/include",<br>
+        "${env:NDK_ROOT}/sources/cxx-stl/llvm-libc++/include",<br>
+        "${env:NDK_ROOT}/sources/cxx-stl/llvm-libc++abi/include"<br>
+      ],<br>
+      "C_Cpp.default.defines": [<br>
+        "_DEBUG",<br>
+        "DEBUG",<br>
+        "__ANDROID__",<br>
+        "__ANDROID_API__=29"<br>
+    ],<br>
+    "C_Cpp.inlayHints.referenceOperator.showSpace": true,<br>
+    "C_Cpp.default.customConfigurationVariables": {<br>
+    },<br>
+}<br>
 ``
